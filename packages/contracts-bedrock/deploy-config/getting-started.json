@@ -1,11 +1,11 @@
 {
   "numDeployConfirmations": 1,
 
-  "finalSystemOwner": "ADMIN",
-  "portalGuardian": "ADMIN",
-  "controller": "ADMIN",
+  "finalSystemOwner": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
+  "portalGuardian": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
+  "controller": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
 
-  "l1StartingBlockTag": "BLOCKHASH",
+  "l1StartingBlockTag": "0xd435c323683c19070b310b362c2ad58a98d7e1e61497b1f2ae5ba09a65d53ab7",
 
   "l1ChainID": 5,
   "l2ChainID": 42069,
@@ -15,23 +15,23 @@
   "sequencerWindowSize": 3600,
   "channelTimeout": 300,
 
-  "p2pSequencerAddress": "SEQUENCER",
+  "p2pSequencerAddress": "0x674cD44795c5B15b4488Cc9Ee249ecdCaC6EE56b",
   "batchInboxAddress": "0xff00000000000000000000000000000000042069",
-  "batchSenderAddress": "BATCHER",
+  "batchSenderAddress": "0x674cD44795c5B15b4488Cc9Ee249ecdCaC6EE56b",
 
   "l2OutputOracleSubmissionInterval": 120,
   "l2OutputOracleStartingBlockNumber": 0,
-  "l2OutputOracleStartingTimestamp": TIMESTAMP,
+  "l2OutputOracleStartingTimestamp": 1691907936,
 
-  "l2OutputOracleProposer": "PROPOSER",
-  "l2OutputOracleChallenger": "ADMIN",
+  "l2OutputOracleProposer": "0xe3A1407c85a7A036d6fFCE6D763735cdbF6E3Eaf",
+  "l2OutputOracleChallenger": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
 
   "finalizationPeriodSeconds": 12,
 
-  "proxyAdminOwner": "ADMIN",
-  "baseFeeVaultRecipient": "ADMIN",
-  "l1FeeVaultRecipient": "ADMIN",
-  "sequencerFeeVaultRecipient": "ADMIN",
+  "proxyAdminOwner": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
+  "baseFeeVaultRecipient": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
+  "l1FeeVaultRecipient": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
+  "sequencerFeeVaultRecipient": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
 
   "baseFeeVaultMinimumWithdrawalAmount": "0x8ac7230489e80000",
   "l1FeeVaultMinimumWithdrawalAmount": "0x8ac7230489e80000",
@@ -46,12 +46,16 @@
   "enableGovernance": true,
   "governanceTokenSymbol": "OP",
   "governanceTokenName": "Optimism",
-  "governanceTokenOwner": "ADMIN",
+  "governanceTokenOwner": "0x3b23538d0afd374cA33d4D26dDbd961bE45b55B4",
 
   "l2GenesisBlockGasLimit": "0x1c9c380",
   "l2GenesisBlockBaseFeePerGas": "0x3b9aca00",
   "l2GenesisRegolithTimeOffset": "0x0",
 
   "eip1559Denominator": 50,
-  "eip1559Elasticity": 10
+  "eip1559Elasticity": 10,
+
+  "hyperlaneValidators": [
+    "0x78066d8adb677a1353d1fc8be28cf03e2a8de7157bbab979953587d78076c11e"
+  ]
 }
