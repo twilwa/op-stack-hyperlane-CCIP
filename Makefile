@@ -1,6 +1,7 @@
 COMPOSEFLAGS=-d
 ITESTS_L2_HOST=http://localhost:9545
 BEDROCK_TAGS_REMOTE?=origin
+export NVM_DIR = $(HOME)
 
 build: build-go build-ts
 .PHONY: build
